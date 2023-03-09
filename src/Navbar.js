@@ -47,7 +47,7 @@ const Navbar = ({authen,setAuthen}) => {
           </div>
         <div className='search-input'>
           <FontAwesomeIcon icon={faSearch}/>
-          <input onKeyPress={(e)=>search(e)} className='search-type' type='text' placeholder='Search Product'/>
+          <input onKeyDown={(e)=>search(e)} className='search-type' type='text' placeholder='Search Product'/>
         </div>
       </div>
 
