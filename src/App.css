@@ -1,0 +1,85 @@
+.login-btn{
+  display:flex;
+  justify-content:flex-end ;
+  margin: 20px;
+  cursor: pointer;
+}
+.nav-sec{
+  display:flex;
+  justify-content: center;
+}
+
+
+
+
+.menu-list{
+  display:flex;
+  list-style: none;
+}
+
+@media screen and (max-width:768px){
+  .menu-list{
+    flex-direction: column;
+    align-items: center;
+    background-color: red;
+    color:white;
+    width:768px;
+    margin-top:2rem;
+  }
+}
+
+
+.menu-list li{
+  padding: 10px;
+}
+.menu-area{
+  display: flex;
+  justify-content: center;
+}
+.search-input{
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+}
+
+.search-type{
+  width:200px;
+  border-top: none;
+  border-left:none;
+  border-right: none;
+}
+.card-img{
+  width:10rem;
+  height:20rem;
+}
+.card-img:hover{
+  position:absolute;
+  width:30rem;
+  height:60rem;
+}
+.login-form{
+  text-align: center;
+  align-items: center;
+  display:flex;
+  flex-direction: column;
+  justify-items: center;
+  margin-top:4rem;
+  
+ 
+
+}
+input,.loginSec-btn{
+  width:20rem;
+  height:2rem;
+
+}
+.loginSec-btn{
+  margin-top:2rem;
+  background-color: red;
+  border: none;
+}
+.produt-img{
+  display:flex;
+  justify-content: flex-end;
+}
+
